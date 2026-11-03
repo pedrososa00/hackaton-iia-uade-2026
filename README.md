@@ -36,10 +36,11 @@
   3. Monto en disputa (USD): Cuantifica el impacto financiero del reclamo; las disputas de alto valor económico aumentan drásticamente la prioridad de escalamiento.
 * Variables descartadas: Ninguna de las variables principales provistas en la ficha fue descartada, ya que cada una aporta una dimensión crítica (escala operativa, fricción emocional y riesgo financiero) necesaria para la decisión sin violar la regla de información conocida al momento de decidir.
 
-**Cómo se corre en vivo.** 
-1. Abrir el cuaderno de Google Colab creado por el grupo.
-2. Importar la librería `pandas` y cargar el archivo de datos (`M14.csv` o el caso nuevo entregado por el profesor en la mesa).
-3. Ejecutar la función `predecir(row)` que evalúa los umbrales de intentos fallidos, tono y monto para imprimir de forma automatizada la salida correspondiente (**SÍ** o **NO**).
+**Cómo se corre en vivo.**
+
+1. Abrir el cuaderno de Google Colab del proyecto.
+2. Ejecutar la celda de carga de datos que lee directamente la ficha `M14.csv` desde la URL raw del repositorio de GitHub.
+3. Ejecutar la función `predecir(row)` sobre las filas de `ent` o `pru` para procesar las reglas de decisión e imprimir el resultado (**SÍ** o **NO**).
 
 **Dos casos de ejemplo.**
 
